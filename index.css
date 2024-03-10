@@ -1,6 +1,57 @@
+.app
+{
+    
+    color: aliceblue;
+}
+
 .details
 {
     display: flex;
+}
+
+.about-us
+{
+
+    margin: 20px;
+}
+
+.card
+{
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-style: ridge;
+    width: 200px;
+}
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-head
+{
+    text-align: center;
+}
+
+.img-holder
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+.body
+{
+    margin: 10px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: #E7CB4B;
+    background-color: black;
+    border-width: 5px;
 }
 
 .header
@@ -9,7 +60,30 @@
     border-radius: 20px;
     border-style: ridge;
     display: flex;
+    background-color: #34242D;
 
+}
+
+.icon
+{
+    margin-right: 5px;
+}
+
+.icon-detail
+{
+    margin-right: 25px;
+}
+
+.info > ul 
+{
+    display: flex;
+}
+
+.info > ul > li
+{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
 }
 
 
@@ -23,7 +97,7 @@
     border-color: pink;
 }
 
-.name
+.detail-container
 {
     margin: 30px;
     font-family: "Roboto", sans-serif;
