@@ -1,0 +1,32 @@
+.details
+{
+    display: flex;
+}
+
+.header
+{
+    margin: 10px;
+    border-radius: 20px;
+    border-style: ridge;
+    display: flex;
+
+}
+
+
+.logo
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 30px;
+    border-style: double;
+    border-color: pink;
+}
+
+.name
+{
+    margin: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
